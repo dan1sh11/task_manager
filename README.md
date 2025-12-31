@@ -13,11 +13,8 @@ A full-stack web application for managing tasks with multiple users. Users can c
 
 ## Tech Stack
 
-- **Backend:** Flask
-- **Database:** SQLite
-- **Authentication:** Werkzeug (password hashing)
+- **Backend:** Flask, SQLite, Werkzeug (password hashing)
 - **Frontend:** HTML, CSS, Vanilla JavaScript
-- **Environment Variables:** `.env` file for secret keys and database URL
 
 ## Usage
 
@@ -30,4 +27,3 @@ A full-stack web application for managing tasks with multiple users. Users can c
 
 - Passwords are securely hashed using Werkzeug before storing in the database.
 - Used environment variables for sensitive configuration like `SECRET_KEY`.
-
