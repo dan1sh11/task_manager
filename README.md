@@ -29,7 +29,8 @@ A full-stack web application for managing tasks with multiple users. Users can c
 - Used environment variables for sensitive configuration like `SECRET_KEY`.   
 
 ---
-Access: [Link](https://task-manager-oc13.onrender.com)
+Access: [Link](https://task-manager-oc13.onrender.com)    
+---
 
 ## Demonstrations
 ![Login Page](static/images/demo_01.png)
