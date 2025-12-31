@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Task Manager{%endblock%}
+{% block content %}
+<h2>Your Tasks</h2>
+
+<input id="taskInput" placeholder="New task">
+<button onclick="addTask()">Add</button>
+
+<ul id="taskList"></ul>
+
+<nav>
+<a href="/delete_account">
+    <button>Delete Account</button>
+</a>
+<a href="/logout">
+    <button>Logout</button>
+</a>
+</nav>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+{% endblock %}

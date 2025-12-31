@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Colors */
+:root {
+    --bg: #f9fafb;          
+    --surface: #ffffff;     
+    --text: #111827;        
+    --muted: #6b7280;       
+    --border: #e5e7eb;      
+    --accent: #2563eb;      
+    --accent-soft: #dbeafe; 
+    --danger: #dc2626;      
+}
+
+/* Base Layout */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    max-width: 560px;
+    margin: 60px auto;
+    padding: 0 16px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+/* Headings */
+h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+/* Forms */
+form {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+/* Buttons */
+button {
+    padding: 8px 14px;
+    font-size: 13px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--muted);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Tasks */
+#taskInput {
+    width: calc(100% - 70px);
+    display: inline-block;
+}
+
+#taskInput + button {
+    margin-left: 6px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+li:hover {
+    background: #f3f4f6;
+}
+
+li.done {
+    color: var(--muted);
+    text-decoration: line-through;
+    background: #f9fafb;
+}
+
+/* Buttons */
+li button {
+    border: none;
+    background: none;
+    color: var(--danger);
+    font-size: 12px;
+}
+
+li button:hover {
+    text-decoration: underline;
+}
+
+/* Links */
+a {
+    color: var(--accent);
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
