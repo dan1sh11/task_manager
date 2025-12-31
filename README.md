@@ -27,3 +27,10 @@ A full-stack web application for managing tasks with multiple users. Users can c
 
 - Passwords are securely hashed using Werkzeug before storing in the database.
 - Used environment variables for sensitive configuration like `SECRET_KEY`.
+
+Access: [Link](https://task-manager-oc13.onrender.com)
+
+## Demonstrations
+![Login Page]()
+
+![Home Page]()
