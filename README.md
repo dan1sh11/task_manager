@@ -31,6 +31,6 @@ A full-stack web application for managing tasks with multiple users. Users can c
 Access: [Link](https://task-manager-oc13.onrender.com)
 
 ## Demonstrations
-![Login Page]()
+![Login Page](static/images/demo_01.png)
 
-![Home Page]()
+![Home Page](static/images/demo_02.png)
