@@ -13,7 +13,7 @@ A full-stack web application for managing tasks with multiple users. Users can c
 
 ## Tech Stack
 
-- **Backend:** Flask, SQLite, Werkzeug (password hashing)
+- **Backend:** Flask, SQLAlchemy, SQLite, Werkzeug (password hashing)
 - **Frontend:** HTML, CSS, Vanilla JavaScript
 
 ## Usage
