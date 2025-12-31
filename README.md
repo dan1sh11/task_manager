@@ -6,7 +6,7 @@ A full-stack web application for managing tasks with multiple users. Users can c
 
 - User registration and authentication
 - Secure password storage using Werkzeug hashing
-- Add, edit, delete, and mark tasks as completed
+- Add, track, delete, and mark tasks as completed
 - Multiuser support with individual task lists
 - Responsive frontend built with HTML, CSS, and Vanilla JavaScript
 - Persistent storage using SQLite
